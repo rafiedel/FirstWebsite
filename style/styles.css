@@ -758,12 +758,47 @@ main .thank .thank-container .thank-description a:hover {
 
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 500px) {
+    body {
+        width: 760px;
+    }
 
-    main .content .content-description p {
-        max-width: 1000px;
-        width: 45rem;
-        line-height: 60px;
-        font-size: 2.5rem;
+
+    main .content .content-description{
+        scale: 0.70;
+        margin-top: -8rem;
+    }
+    main .content .content-image img {
+        margin: 0%
+    }
+    
+    main .interest article {
+        height: 300rem;
+    }
+    main .interest .interest-description {
+        scale: 0.75;
+        margin-top:-45rem;
+    }
+    
+    main .plan .plan-container {
+        scale: 0.75;
+    }
+    main .plan .plan-container .planned {
+        scale: 0.9
+    }
+    main .thank {
+        margin: 0px
+    }
+    main .thank aside {
+        height: 75rem;
+    }
+    main .thank .thank-container {
+        scale: 0.65;
+    }
+    footer.footer-container .contact li{
+        text-align: center;
+    }
+    footer.footer-container .sosmed li a{
+        padding: 1rem 1.5rem 4rem 1.5rem ;
     }
 }
