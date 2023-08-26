@@ -739,7 +739,7 @@ main .thank .thank-container .thank-description a:hover {
     main .interest .interest-description .one .a {
         scale: 3;
     }
-        main .interest .interest-description .one .a:hover {
+    main .interest .interest-description .one .a:hover {
         scale: 3.1;
     }
     main .interest .interest-description .two {
@@ -750,7 +750,7 @@ main .thank .thank-container .thank-description a:hover {
     main .interest .interest-description .two .b {
         scale: 3;
     }
-    main .interest .interest-description .two .b {
+    main .interest .interest-description .two .b:hover {
         scale: 3.1;
     }
     
