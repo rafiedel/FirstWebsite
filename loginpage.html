@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style\stylelog.css">
+        <title>Login Page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+    </head>
+
+    <body>
+        <main id="logform">
+            <header>
+                <h1>Passing Check Requirement</h1>
+            </header>
+            <form id="loginForm" class="login-input">
+
+                <label for="inputEmail">Email</label>
+                <input id="inputEmail" type="email" required>
+        <br>
+                <label for="inputPassword">Password</label>
+                <input id="inputPassword" type="password" required>
+        <br>
+                <button id="buttonLogin" type="submit">Login</button>
+            </form>
+            <p>
+                email: bobo@kucing.id     password: turutidur 
+            </p>
+        </main> 
+
+        <div id="wait" class="loading-container">
+            <i class="fas fa-spinner "></i>
+            <p id="waitp"></p>
+        </div>
+
+
+
+        <div id="failed" class="failed-container">
+            <h3>Login Failed</h3>
+            <p>Please Try Again</p>
+        </div>
+
+        <script src="scripts\_init.js"></script>
+        <script src="scripts\login-script.js"></script>
+    </body>
+</html>
