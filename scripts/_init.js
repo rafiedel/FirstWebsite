@@ -14,6 +14,6 @@ function showFail() {
 
 function goToWeb()
 {
-    location.href = './aboutme.html';
+    window.location = "https://rasadel.github.io/first_website/aboutme.html";
 }
 
