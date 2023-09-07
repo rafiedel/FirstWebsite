@@ -14,6 +14,6 @@ function showFail() {
 
 function goToWeb()
 {
-    location.href = './tugasakhir.html';
+    location.href = './aboutme.html';
 }
 
