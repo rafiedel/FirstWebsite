@@ -15,7 +15,11 @@ loginContainer.addEventListener('submit', function(event) {
     var x = document.getElementById("logform");
     var y = document.getElementById("wait");
 
-  
+function goToWeb()
+{
+    window.location = 'https://rasadel.github.io/first_website/aboutme.html';
+}
+
 
     if (email == emailInData && password == passInData) {
         x.style.display = "none"
@@ -34,4 +38,19 @@ loginContainer.addEventListener('submit', function(event) {
     else {
         showFail();
     }
+
+    // mendapatkan modal element dari DOM
+const failBox = document.querySelector('#failed');
+
+// fungsi untuk menampilkan modal
+function showFail() {
+  failBox.classList.add('display');
+
+  // menyembunyikan modal setelah 3 detik
+  setTimeout(function() {
+    failBox.classList.remove('display')
+  }, 3000)
+}
+
+
 });
