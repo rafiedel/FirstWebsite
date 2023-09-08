@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+   
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.navbar-container {
+    display: inline;
+}
+
+header.navbar-container .logo{
+    background-color: #27374D;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+
+header.navbar-container .logo h1 {
+    color: white;
+    content: 0%;
+    padding: 0%;
+    margin: 0%;
+    font-size: 100px;
+}
+
+header.navbar-container .logo p {
+    color:white;
+    content: 0;
+}
+
+.links {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 5px 0 2px;
+    margin: 0 5px 0 2px;
+}
+
+
+header.navbar-container .nav-list {
+    margin-top: 0px;
+    position: sticky;
+    top: 0;
+
+}
+
+header.navbar-container .nav-list ul {
+    padding-left: 0;    
+    display: flex;
+    flex: 1 1 1;
+    justify-content: space-around;
+    padding: 0.75rem 1rem 1rem 1rem;
+    margin: 5px 11rem 1rem 11rem;
+    border-radius: 0 0 999px 999px;
+    background-color: #9DB2BF;
+
+}
+
+header.navbar-container .nav-list li {
+    list-style-type: none;
+    text-align: inline;
+
+}
+
+header.navbar-container .nav-list li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #27374D;
+    padding: .5rem 1rem .5rem 1rem ;
+
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+
+}
+
+header.navbar-container .nav-list li:hover a{
+    background-color: #526D82;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer.footer-container {
+    background-color: #404258;
+    margin-top: -30px;
+    padding-bottom: 0.5px;
+    color: lightcyan;
+    border-top:1rem solid #363954;
+}
+
+footer.footer-container .foot {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer.footer-container .contact {
+    font-size: 25px;
+    margin: 0%
+}
+
+footer.footer-container .contact ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem
+}
+
+footer.footer-container .contact li{
+    list-style-type: none;
+    margin: 0 3rem 0 3rem;
+}
+
+
+footer.footer-container .sosmed {
+    margin-top: 0px;
+}
+
+footer.footer-container .sosmed ul {
+    padding-left: 0;    
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem; 
+}
+
+footer.footer-container .sosmed li {
+    list-style-type: none;
+    margin: 0 0 0 0;
+
+}
+
+footer.footer-container .sosmed li a{
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 500;
+    color: lightcyan;
+    padding: 2rem 2rem 4rem 2rem ;
+}
+
+footer.footer-container p {
+    text-align: right;
+    font-size: medium;
+    margin-top: 60px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+/*
+main {
+    background-color: #6B728E;
+    margin-top: -75px;
+    padding-top:100px;
+    padding-left:100px;
+    padding-right:100px;
+    margin-bottom: -150px;
+    width: 100%;
+    margin-inline:auto;
+
+    flex: 1;
+    display: flex;
+}*/
+
+main {
+    max-width: 3000px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 0;
+    flex: 1;
+    padding-bottom: 2rem;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #6B728E;
+    margin-top: -75px;
+}
+
+
+
+main .content {
+    flex: 1;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+
+    margin-top: -31px;
+    padding: 200px 200px 360px 200px;
+
+    background-color: aliceblue;
+    align-self: stretch;
+}
+main .penanda1 {
+    display: flex;
+    align-self: center;
+    opacity: 0%;
+}
+
+main .content article {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+main .content .content-description {
+    width: 50rem;
+    flex: 2.7 1 ;
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+/*
+main .content .content-image{
+    border: 1px solid ;
+    overflow: hidden;
+    display: flex;
+    border-radius: 999px;
+    border-color: transparent;
+    min-width: 250px;
+    width: 450px;
+    height: 450px;
+}
+img {
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+}*/
+
+main .content .content-image {
+    flex: 1;
+    display: flex;   
+    align-items: center;
+}
+
+
+main .content .content-image img {
+    margin: none;
+    margin-left: 30px;
+    min-width: 250px;
+    width: 325px;
+    height: 340px;
+    border-radius: 999px;
+    margin-top: 100px;
+    align-self: center;
+}
+
+
+main .content .content-description .sub1 {
+    font-size: 3.5rem;
+    margin-block: 1rem;
+    color: #3a3a3a;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+main .content .content-description p{
+    line-height: 1.7rem;
+    font-size: 1.65rem;
+    color: #3a3a3a;
+
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+main .interest{
+    max-width: 3000px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-content: stretch;
+    align-self: center;
+    flex-direction: column;
+    
+    background-color: #474a66;
+    padding-bottom: 20rem;
+    padding-top: 5rem;
+
+    color: white;
+
+}
+main .penanda2 {
+    display: flex;
+    align-self: center;
+    opacity: 0%;
+}
+
+main .interest article {
+    display: flex;
+}
+
+main .interest .interest-description {
+    flex: 1 1 ;
+    margin: 5px 25px 25px 25px
+}
+
+main .interest h3{
+    font-size: 3.5rem;
+    margin-block: 1rem;
+    text-align: center;
+    margin-bottom: 50px
+
+}
+
+main .interest .interest-description .one {
+    display: flex;
+    flex: 1 1 1 1;
+    margin-top: 7rem;
+    gap: 7rem
+}
+main .interest .interest-description .one .a {
+    margin: auto;
+    min-width: 200x;
+    width: 225px;
+    
+    box-shadow: 0 2px 8px 2px rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 40px;
+    scale: 1.1;
+
+    background-color:#404258;
+}
+
+
+main .interest .interest-description .one .a:hover {
+    box-shadow: 0.15rem 0rem 1rem 1rem rgb(255, 255, 255);
+    scale:1.2
+}
+main .interest .interest-description .one .a h1 {
+    text-align: center;
+}
+main .interest .interest-description .one .a img {
+    width: 150px;
+    height: inherit;
+
+    padding: block 1rem;
+
+}
+
+main .interest .interest-description .two {
+    display: flex;
+    flex: 1 1 1 1;
+    margin: auto;
+    margin:10px;
+    margin-top: 100px;
+    gap: 7rem;
+}
+main .interest .interest-description .two .b {
+    margin: auto;
+    min-width: 200x;
+    width: 225px;
+    scale: 1.1;
+    
+    background-color:#404258;
+    box-shadow: 0 2px 8px 2px rgb(250, 250, 250);
+
+    border-radius: 5px;
+    padding: 40px;
+}     
+main .interest .interest-description .two .b:hover {
+    box-shadow: 0.15rem 0rem 1rem 1rem rgb(255, 255, 255);
+    scale: 1.2;
+}
+
+main .interest .interest-description .two .b h1 {
+    text-align: center;
+}
+
+main .interest .interest-description .two .b img {
+    width: 150px;
+    height: inherit;
+
+    padding: block 1rem;
+}
+
+/*
+main .interest .interest-description .two {
+    display: flex;
+    flex: 1;
+    margin: auto;
+}
+
+main .interest .interest-description .two .b {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+    min-width: 200x;
+    width: 225px;
+    padding: 40px;
+    box-shadow: black;
+}
+main .interest .interest-description .two .b img {
+    height: inherit;
+    width: inherit;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+main .plan {
+    flex: 1;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    align-self: stretch;
+
+
+    margin-top: -31px;
+    padding: 100px 36.5px 0px 36.5px;
+
+    background-color: rgb(72, 77, 81);
+
+    color: white;
+}
+main .penanda3 {
+    display: flex;
+    align-self: center;
+    opacity: 0%;
+}
+
+main .plan article {
+    display: flex
+}
+
+main .plan .plan-container{
+    display: flex;
+    margin-top:30px;
+
+}
+main .plan .plan-container .unplan{
+    display: flex;
+    padding-bottom: 360px;
+
+}
+
+main .plan .plan-container .unplan p {
+    line-height: 4rem;
+    width: 45rem;
+    font-size: 2.5rem;
+    margin-left: -1rem;
+
+    font-weight: 500;
+
+    margin-top: 6.75rem;
+
+}
+main .plan .plan-container .unplan img {
+    margin-left: 0rem;
+}
+
+main .plan .plan-container .planned{
+    display: flex;
+    padding-bottom: 200px;
+
+}
+
+main .plan .plan-container .planned .deskripsi {
+    line-height: 4rem;
+    width: 41rem;
+    margin-left: -1rem;
+    margin-top: 100px;
+
+}
+
+
+main .plan .plan-container .planned .deskripsi p {
+    font-size:1.75rem;
+    line-height: 40px;
+    margin:0px;
+
+    font-weight: 500;
+}
+main .plan .plan-container .planned .deskripsi .endplan {
+    font-size:1.75rem;
+    line-height: 40px;
+    margin: 0px;
+
+    font-weight: 500;
+}
+main .plan .plan-container .planned .deskripsi blockquote {
+    font-size:1.75rem;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top:-0.2rem;
+    margin-left: 5rem;
+    margin-bottom: -0.2rem;
+}
+
+main .plan .plan-container .planned img {
+    margin-left: 0rem;
+}
+
+
+
+main .plan .plan-container .unplan button {
+    margin-left: 17.5rem;
+
+    padding: .2rem 1.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: "Quicksand", sans-serif;
+
+    background-color: transparent;
+    color: #edf4f6;
+    border: 1px solid transparent;
+
+    font-style: italic;
+
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+
+main .plan .plan-container .unplan button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #545454;
+    font-size: 3.3rem;
+}
+
+
+main .plan .plan-container .planned button {
+    margin: 0px;
+    margin-left: 22rem;
+
+    padding: .8rem 2.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: "Quicksand", sans-serif;
+
+    background-color: transparent;
+    color: #450140;
+    border: 1px solid transparent;
+
+
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .thank{
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    background-color: transparent;
+    margin-top: 100px;
+    padding: 0 40px 100px 40px;
+    align-self: center;
+}
+
+main .thank aside {
+    display: flex;
+    flex-direction: column;
+}
+
+main .thank .thank-container {
+    display: inherit;
+    flex-direction: inherit;
+    background-color: white;
+    border-radius: 100px;
+    width: 50rem;
+    height: 75rem;
+}
+
+main .thank .thank-container .thank-image {
+    width: 15rem;
+    height: 15rem;
+    align-self: center;;
+    margin:0%;
+
+    margin-top: 5rem;
+}
+main .thank .thank-container .thank-image img {
+    width: inherit;
+    height: inherit;
+}
+
+main .thank .thank-container .thank-description {
+    display: inherit;
+    flex-direction: inherit;
+    align-self: center;
+    width: 32rem;
+    height: 26rem;
+}
+main .thank .thank-container .thank-description h1 {
+    text-align: center;
+    font-size: 4rem
+
+}
+main .thank .thank-container .thank-description ul {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 3rem;
+    padding: 0;
+    font-family: 'Gluten', cursive;
+}
+main .thank .thank-container .thank-description li {
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 35px;
+}
+main .thank .thank-container .thank-description a {
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(65, 76, 81);
+}
+main .thank .thank-container .thank-description a:hover {
+    font-weight:700;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1298px) {
+    header.navbar-container .nav-list ul {
+        margin-inline: 0px;
+    }
+
+    main .content article {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    main .content .content-image {
+        scale: 1.3;
+    }
+    main .content .content-description p {
+        line-height: 60px;
+        font-size: 2.5rem;
+    }
+    main .interest .interest-description .one{
+        scale: 0.75;
+    }
+    main .interest .interest-description .two{
+        scale: 0.75;
+    }
+    main .plan .plan-container .unplan {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    main .plan .plan-container .unplan button {
+        margin: 0px;
+    }
+    main .plan .plan-container .planned {
+        flex-direction: column;
+        align-items: center;
+        text-align:center;
+    }
+    main .plan .plan-container .planned .deskripsi{
+        margin-top: 200px;
+        width: 37rem;
+        scale: 1.5;
+    }
+    main .plan .plan-container .planned .deskripsi button{
+        margin-left: 0px;
+    }
+    main .interest .interest-description .one {
+        flex-direction: column;
+        row-gap: 50rem;
+        margin-top: -8rem
+    }
+    main .interest .interest-description .one .a {
+        scale: 3;
+    }
+    main .interest .interest-description .one .a:hover {
+        scale: 3.1;
+    }
+    main .interest .interest-description .two {
+        flex-direction: column;
+        row-gap: 50rem;
+        margin-top: -20rem
+    }
+    main .interest .interest-description .two .b {
+        scale: 3;
+    }
+    main .interest .interest-description .two .b:hover {
+        scale: 3.1;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 880px;
+    }
+    main .content .content-image img {
+        margin: 0%
+    }
+    main .plan .plan-container .planned {
+        scale: 0.9
+    }
+    main .thank {
+        margin: 0px
+    }
+    main .thank .thank-container {
+        scale: 0.9;
+    }
+}
