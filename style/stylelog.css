@@ -207,17 +207,18 @@ i {
     }
 
     main .login-input #inputEmail {
-        height: 7rem;
+        height: 5rem;
         line-height: 100%;
-        font-size: 4rem;
+        font-size: 5rem;
         width: 52rem;
+        margin-bottom: 2rem;
     }
     main .login-input #inputPassword {
-        height: 7rem;
+        height: 5rem;
         line-height: 10rem;
-        font-size: 4rem;
+        font-size: 5rem;
         width: 52rem;
-        margin-bottom: 5rem;
+        margin-bottom: 7rem;
 
     }
 
