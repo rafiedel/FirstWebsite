@@ -207,7 +207,7 @@ i {
     }
 
     main .login-input #inputEmail {
-        height: 5rem;
+        height: 10rem;
         line-height: 100%;
         font-size: 5rem;
         width: 52rem;
@@ -216,7 +216,7 @@ i {
     main .login-input #inputPassword {
         height: 5rem;
         line-height: 10rem;
-        font-size: 5rem;
+        font-size: 10rem;
         width: 52rem;
         margin-bottom: 7rem;
 
