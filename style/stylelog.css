@@ -192,6 +192,9 @@ i {
     main .login-input #inputEmail {
         margin-left: 0;
     }
+    main .login-input #inputPassword {
+        margin-lef: 0;
+    }
 
     .failed-container {
         scale: 2.5;
