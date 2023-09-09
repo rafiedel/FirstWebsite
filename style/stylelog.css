@@ -210,14 +210,15 @@ i {
         height: 10rem;
         font-size: 3rem;
         width: 52rem;
-        padding: 0px 10px;
-        
+        padding-top: 30px;
+        padding-botton: 30px;
     }
     main .login-input #inputPassword {
         height: 10rem;
         font-size: 3rem;
         width: 52rem;
-        padding: 0px 10px;
+        padding-top: 30px;
+        padding-botton: 30px;
        
 
     }
