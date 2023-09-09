@@ -206,14 +206,16 @@ i {
     }
 
     main .login-input #inputEmail {
+        height: 7rem;;
         font-size: 5rem;
         width: 52rem;
-        margin-bottom: 5rem;
     }
     main .login-input #inputPassword {
+        height: 7rem;;
         font-size: 5rem;
         width: 52rem;
         margin-bottom: 5rem;
+
     }
 
     main .login-input button {
