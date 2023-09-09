@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(51, 51, 51);
+    font-family: 'Concert One', cursive;
+    margin: 0;
+    margin-top: -3rem;
+    padding: 0;
+    background-color: #749BC2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+
+}
+
+
+main {
+    background-color: #F6F4EB;
+    border:20px solid #4682A9;
+    border-radius: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    display: flex;
+    flex-direction: column;
+
+    scale: 0.7;
+    width: 60rem;
+    height:48rem;
+
+    
+}
+
+main h1 {
+    margin: 6rem 2rem;
+    font-size: 110px;
+    color: #4682A9;
+
+
+    
+}
+
+main .login-input {
+    
+    align-items: flex-start;
+
+    justify-content: space-around;
+    font-size: 3rem;
+    line-height: 5rem;
+
+    margin-bottom: 0;
+}
+
+
+
+main .login-input input {
+    font-size: 2.5rem;
+
+}
+
+main .login-input #inputEmail {
+    width: 40rem;
+    list-style-type: none;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 5px solid rgb(89, 89, 89);
+    font-family: 'Concert One', cursive;
+    color: rgb(72, 72, 72);
+}
+main .login-input #inputPassword {
+    width: 40rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: transparent;
+    border-bottom: 5px solid rgb(89, 89, 89);
+    font-family: 'Concert One', cursive;
+    color: rgb(72, 72, 72)
+}
+main .login-input  #inputEmail:hover {
+    scale: 1.02;
+
+}
+main .login-input #inputPassword:hover {
+    scale: 1.02
+
+}
+
+main .login-input button {
+    margin-top: 20px;
+    width: 10rem;
+    height: 4rem;
+    list-style-type: none;
+    color: white;
+    background-color: rgb(73, 73, 73);
+    border-color: transparent;
+    font-size: 2.5rem;
+    font-family: 'Concert One', cursive;
+}
+
+main .login-input button:hover {
+    font-size: 3rem;
+    border-radius: 10px;
+    scale: 1.2;
+    background-color: #91C8E4;
+    color: white;
+}
+
+.note {
+    margin-top: -8rem;
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.loading-container {
+    display: none;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    
+}
+.loading-container p {
+    font-style:oblique;
+    color: white;
+}
+i {
+    font-size: 10rem;
+    display: flex;
+    color: white;
+     animation: rotation 3s infinite linear;
+  }
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(1000deg);
+    }
+  }
+
+
+
+.failed-container {
+
+    width: 12rem;
+    line-height: 2px;
+
+
+    position: fixed;
+    vertical-align: middle;
+    padding: 8px 32px;
+    background-color: #5e5b5d;
+    color: white;
+    bottom: -100px;
+    opacity: 0;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: bottom ease-in-out 0.3s, opacity ease-in-out 0.3s;
+}
+
+.failed-container h3 {
+    padding: 1px;
+
+}
+
+.failed-container p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.failed-container.display {
+    bottom: 32px;
+    opacity: 1;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        margin-top: 20rem
+    }
+
+    main {
+        scale: 1.01;
+        height: 85rem;
+    }
+
+    main h1 {
+        font-size: 10rem;
+    }
+
+    main .login-input #inputEmail {
+        font-size: 5rem;
+        width: 52rem;
+        margin-bottom: 5rem;
+    }
+    main .login-input #inputPassword {
+        font-size: 5rem;
+        width: 52rem;
+        margin-bottom: 5rem;
+    }
+
+    main .login-input button {
+        scale: 1.5
+    }
+
+    .note {
+        margin-top: 0;
+        font-size: 2rem;
+    }
+}
