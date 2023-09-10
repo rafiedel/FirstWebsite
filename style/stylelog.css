@@ -208,15 +208,16 @@ i {
 
     main .login-input #inputEmail {
         height: 10rem;
-        line-height: 5rem
-        font-size: 8 rem;
+        line-height: 5rem;
+        font-size: 8rem;
         width: 52rem;
         padding: 0px;
         
         
     }
     main .login-input #inputPassword {
-        height: 10rem;
+        height: 10rem;
+
         font-size: 3rem;
         width: 52rem;
         padding-top: 30px;
