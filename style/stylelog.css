@@ -208,14 +208,14 @@ i {
 
     main .login-input #inputEmail {
         height: 5rem;
-        line-height: 100%;
+        line-height: 200%;
         font-size: 5rem;
         width: 52rem;
         margin-bottom: 2rem;
     }
     main .login-input #inputPassword {
         height: 5rem;
-        line-height: 10rem;
+        line-height: 200%;
         font-size: 5rem;
         width: 52rem;
         margin-bottom: 7rem;
