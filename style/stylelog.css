@@ -207,19 +207,20 @@ i {
     }
 
     main .login-input #inputEmail {
-        height: 10rem;
-        font-size: 3rem;
+        height: 10rem;
+        line-height: 5rem
+        font-size: 8 rem;
         width: 52rem;
-        padding: 30px 30px 30px 0;
-        font-style:italic;
-        text-indent: 30px
+        padding: 0px;
+        
+        
     }
     main .login-input #inputPassword {
         height: 10rem;
         font-size: 3rem;
         width: 52rem;
         padding-top: 30px;
-        padding-botton: 30px;
+        padding-bottom: 30px;
        
 
     }
