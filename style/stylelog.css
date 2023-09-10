@@ -207,32 +207,37 @@ i {
     }
 
     main .login-input #inputEmail {
-        height: 10rem;
-        line-height: 5rem;
-        font-size: 8rem;
+        height: 5rem;
+        line-height: 100%;
+        font-size: 5rem;
         width: 52rem;
-        padding: 0px;
-        
-        
+        margin-bottom: 2rem;
     }
     main .login-input #inputPassword {
-        height: 10rem;
-
-        font-size: 3rem;
+        height: 5rem;
+        line-height: 10rem;
+        font-size: 5rem;
         width: 52rem;
-        padding-top: 30px;
-        padding-bottom: 30px;
-       
+        margin-bottom: 7rem;
 
     }
-
 
     main .login-input button {
         scale: 1.5
+    }
+    main .login-input button:hover {
+        scale: 1.8;
     }
 
     .note {
         margin-top: 0;
         font-size: 2rem;
+    }
+
+    .failed-container {
+        scale: 2.4;
+    }
+    .failed-container.display {
+        bottom: 100px;
     }
 }
