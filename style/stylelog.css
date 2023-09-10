@@ -210,8 +210,9 @@ i {
         height: 10rem;
         font-size: 3rem;
         width: 52rem;
-        padding-top: 30px;
-        padding-botton: 30px;
+        padding: 30px 30px 30px 0;
+        font-style:italic;
+        text-indent: 30px
     }
     main .login-input #inputPassword {
         height: 10rem;
