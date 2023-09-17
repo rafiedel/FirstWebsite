@@ -192,12 +192,13 @@ i {
 
 
 @media screen and (max-width: 1000px) {
-    body {
-        margin-top: 20rem
-    }
 
+    body {
+        margin-top:-19rem;
+        margin-left: -1rem;
+    }
     main {
-        scale: 1.01;
+        scale: 0.4;
         height: 85rem;
     }
 
@@ -215,7 +216,7 @@ i {
     }
     main .login-input #inputPassword {
         height: 5rem;
-        line-height: 200%;
+        line-height: 10rem;
         font-size: 5rem;
         width: 52rem;
         margin-bottom: 7rem;
@@ -235,9 +236,9 @@ i {
     }
 
     .failed-container {
-        scale: 2.4;
+        scale: 1;
     }
     .failed-container.display {
-        bottom: 100px;
+        bottom: 200px;
     }
 }
